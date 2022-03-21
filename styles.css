@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;1,300&display=swap');
+
+header{
+    background-color: #C70039;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+    padding-top: 6px;
+}
+
+section{
+    border: 1px;
+    border-style:solid;
+    border-color: black;
+    margin: 10px 0px;
+}
+
+section h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 25px;
+}
+
+#colors .color-block{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: inline-block;
+    margin: 5px;
+    margin-top: 0px;
+}
+
+.color-block{
+    width: 30%;
+    height: 100px;
+    text-align: center;
+}
+
+.color-block h4{
+    font-weight: 100;
+}
+
+
+#purple{
+    background-color: #581845;
+    color: white;
+}
+
+#crimson{
+    background-color: #C70039;
+    color: white;
+}
+
+#orange{
+    background-color: #FF5733;
+    color: white;
+}
+
+#cream{
+    background-color: #DAF7A6;
+    color: black;
+}
+
+#fonts .text-block{
+    display: inline-block;
+}
+
+.text-block{
+    width: 49%;
+    height: auto;
+}
+
+.text-block h3{
+    text-decoration: underline;
+}
+
+#roboto{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#poppins{
+    font-family: Poppins, sans-serif;
+}
+
+#source{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.normal{
+    font-weight:normal;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.style-block h1{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif ;
+    padding-left: 35px;
+}
+
+.style-block h2{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif ;
+    padding-left: 35px;
+}
+
+.style-block p{
+    font-weight: normal;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif ;
+    padding-left: 35px;
+}
+
+.style-block ul{
+    padding-left: 70px;
+}
